@@ -52,14 +52,27 @@ CMD commands:
  2 - Open another terminal amd input the following commands:
  
     1 - source /home/*username*/catkin_*workspace name*/devel/setup.bash
-    2 - roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
-    3 - export TURTLEBOT3_MODEL=burger
+    2 - export TURTLEBOT3_MODEL=burger
+    3 - roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+    
     
  3 - Open another terminal and input the following commands: 
  
     1 - source /home/*username*/catkin_*workspace name*/devel/setup.bash
-    2 - roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-    3 - export TURTLEBOT3_MODEL=burger
+    2 - export TURTLEBOT3_MODEL=burger
+    3 - roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
  
       
-    
+ 4 - Open Rviz and Gazebo side by side and have the 3rd terminal overlap them.
+ 
+ 
+ 
+ 5 - You can now control the robot through the 3rd terminal using the  w a s d x and being the mapping process
+ 
+ ![image](https://user-images.githubusercontent.com/109832303/184438544-fbe846f5-9af1-4c06-80e5-7e4289972539.png)
+
+![image](https://user-images.githubusercontent.com/109832303/184439348-31010fb3-44cd-4cc8-a298-0553551c4d5b.png)
+
+![image](https://user-images.githubusercontent.com/109832303/184439741-cc380d26-bbba-4017-8058-780af52bae4d.png)
+![image](https://user-images.githubusercontent.com/109832303/184441862-a0504456-ab6e-4a7c-97ee-98e6a9897134.png)
+
