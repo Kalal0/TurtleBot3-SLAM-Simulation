@@ -76,3 +76,14 @@ CMD commands:
 ![image](https://user-images.githubusercontent.com/109832303/184439741-cc380d26-bbba-4017-8058-780af52bae4d.png)
 ![image](https://user-images.githubusercontent.com/109832303/184441862-a0504456-ab6e-4a7c-97ee-98e6a9897134.png)
 
+
+6 - After you cover the entire building, the map should look something like this: 
+
+![image](https://user-images.githubusercontent.com/109832303/184446143-4ae800f7-21ad-4517-81d5-0420e52b1610.png)
+
+
+7 - Finally save the map by opening a new terminal and input the following command: 
+
+    rosrun map_server map_saver -f ~/map
+    
+![image](https://user-images.githubusercontent.com/109832303/184446788-9f542b79-fe75-4dd8-abd7-9a1ff7e11759.png)
