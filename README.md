@@ -82,7 +82,7 @@ CMD commands:
 ![image](https://user-images.githubusercontent.com/109832303/184446143-4ae800f7-21ad-4517-81d5-0420e52b1610.png)
 
 
-7 - Finally save the map by opening a new terminal and input the following command: 
+7 - Finally save the map by opening a new terminal and inputting the following command: 
 
     rosrun map_server map_saver -f ~/map
     
