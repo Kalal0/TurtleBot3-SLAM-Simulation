@@ -35,6 +35,14 @@ CMD commands:
     3 - sudo apt install ros-noetic-turtlebot3-msgs
     
     4 - sudo apt install ros-noetic-turtlebot3
+    
+    5 - cd ~/catkin_*workspace name*/src/
+    
+    6 - git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    
+    7 - cd ~/catkin_*workspace name*
+    
+    8 - catkin_make
 
 
 # Running the Simulation: 
